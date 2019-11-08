@@ -464,6 +464,12 @@ body {
     transition: all 0.3s cubic-bezier(.33,0,.2,1);
 }
 
+.post-card-large .post-card-title {
+    background: none;
+    color: red;
+    font-size: 5.5rem;
+}
+
 /* Posts without images */
 .post-card.no-image:before {
     display: block;
@@ -502,6 +508,10 @@ body {
     .post-card-title {
         padding: 1em;
         font-size: 2em;
+    }
+
+    .post-card-large .post-card-title {
+        font-size: 4.5rem;
     }
 }
 @media (max-width: 700px) {
