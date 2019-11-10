@@ -4,6 +4,7 @@ import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
+import SocialIcons from '../components/social-icons';
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -28,6 +29,7 @@ const BlogIndex = ({ data }, location) => {
           </h2>
         </header>
       )}
+      <SocialIcons />
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
