@@ -1,5 +1,5 @@
 ---
-title: BEATS FOR SALE
+title: Other Productions
 date: "2019-05-06"
 thumbnail: ./cassette.jpg
 description: What if everything you knew was turned to blue?

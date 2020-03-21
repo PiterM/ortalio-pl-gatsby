@@ -35,9 +35,8 @@ export default function SociaIcons() {
 
 export function renderSocialIcon(key, link, image) {
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" key={key}>
       <Image
-        key={key}
         fixed={image}
       />
     </a>

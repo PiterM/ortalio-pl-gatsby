@@ -131,21 +131,29 @@ body {
 }
 
 .page-social-icons .gatsby-image-wrapper {
+    -webkit-transition: all 0s ease-in-out 0.07s;
+	-moz-transition: all 0s ease-in-out 0.07s;
+	-o-transition: all 0s ease-in-out 0.07s;
+	transition: all 0s ease-in-out 0.07s !important;
     width: 60px !important;
     margin: 0 3px;
 }
 
+.page-social-icons .gatsby-image-wrapper:hover {
+    border: 2px solid black;
+}
+
 .page-social-icons .gatsby-image-wrapper img {
-    object-position: right center !important;
-    -webkit-transition: all 0.5s ease-in-out 0.1s;
-	-moz-transition: all 0.5s ease-in-out 0.1s;
-	-o-transition: all 0.5s ease-in-out 0.1s;
-	transition: all 0.2s ease-in-out 0s !important;
+    object-position: left center !important;
+    -webkit-transition: all 0s ease-in-out 0s;
+	-moz-transition: all 0s ease-in-out 0s;
+	-o-transition: all 0s ease-in-out 0s;
+	transition: all 0s ease-out 0s !important;
 }
 
 .page-social-icons .gatsby-image-wrapper:hover img, 
 .page-social-icons .gatsby-image-wrapper img:hover {
-    object-position: left center !important;
+    object-position: right center !important;
 }
 
 .site-foot {
@@ -462,7 +470,7 @@ body {
     bottom: 0;
     left: 0;
     color: #fff;
-    background: #F1E9E7;
+    background: rgb(255, 249, 198);
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
